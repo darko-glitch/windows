@@ -9,10 +9,6 @@ pyenv global 3.13
 # Create dedicated virtual environment for MCP tools
 python -m venv C:\Users\ahmad\Documents\mcp\python
 
-# Upgrade pip and install MCP Python packages
-C:\Users\ahmad\Documents\mcp\python\Scripts\python.exe -m pip install --upgrade pip
-C:\Users\ahmad\Documents\mcp\python\Scripts\python.exe -m pip install mcp-server-git mcp-server-fetch mcp_server_time
-
 # ==============================================================================
 # STEP 2: SETUP NODE.JS ENVIRONMENT
 # ==============================================================================
