@@ -9,7 +9,6 @@ npm install -g @modelcontextprotocol/server-github
 
 # Additional MCP tools
 npm install -g @upstash/context7-mcp@latest      # Context/memory system
-npm install -g @kazuph/mcp-fetch                 # Fetch capabilities
 
 # Desktop automation setup
 npx @wonderwhy-er/desktop-commander@latest setup
@@ -24,4 +23,4 @@ $PythonPath = "$env:USERPROFILE\Documents\mcp\python\Scripts\python.exe"
 
 # Install commands
 & $PythonPath -m pip install --upgrade pip
-& $PythonPath -m pip install mcp-neo4j-cypher mcp-server-git mcp-server-fetch mcp-server-time mcp-neo4j-memory
+& $PythonPath -m pip install mcp-server-fetch mcp-neo4j-cypher mcp-server-git mcp-server-fetch mcp-server-time mcp-neo4j-memory
